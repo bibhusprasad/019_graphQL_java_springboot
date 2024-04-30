@@ -1,0 +1,19 @@
+spring:
+  application:
+    name:graphql
+
+server:
+  http2:
+    enabled: true
+
+graphql:
+  playground:
+    enabled: true
+  servlet:
+    servlet-max-query-depth: 5
+    exception-handlers-enabled: true
+
+logging:
+  level:
+    root: info
+
