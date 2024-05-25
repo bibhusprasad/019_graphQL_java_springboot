@@ -20,3 +20,7 @@ graphql:
   servlet:
     exception-handlers-enabled: true
     max-query-depth: 5
+
+voyager:
+  enabled: true
+

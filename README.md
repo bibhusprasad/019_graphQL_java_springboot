@@ -148,3 +148,21 @@ Response Data
   }
 }
 ````
+## GraphQL voyager schema
+
+pom.xml
+
+````xml
+<dependency>
+    <groupId>com.graphql-java-kickstart</groupId>
+    <artifactId>voyager-spring-boot-starter</artifactId>
+    <version>11.1.0</version>
+</dependency>
+````
+
+application.yml
+
+````yaml
+voyager:
+  enabled: true
+````
