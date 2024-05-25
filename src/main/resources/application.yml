@@ -1,19 +1,22 @@
 spring:
   application:
-    name:graphql
+    name: graphql
 
 server:
   http2:
     enabled: true
 
-graphql:
-  playground:
-    enabled: true
-  servlet:
-    servlet-max-query-depth: 5
-    exception-handlers-enabled: true
-
 logging:
   level:
     root: info
 
+graphql:
+  playground:
+    enabled: true
+    tabs:
+      - name: Bank account simple query
+        query: classpath:playground/bank_account.graphqls
+        variables: classpath:playground/bank_account_variables.json
+  servlet:
+    exception-handlers-enabled: true
+    max-query-depth: 5
