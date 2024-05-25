@@ -2,7 +2,7 @@
 
 ## pom.xml file
 
-````json
+````xml
 <dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -69,7 +69,7 @@ http://localhost:8080/graphql
 
 Request Parameter
 
-````json
+````graphql
 {
   bankAccount(id: "003") {
     id
@@ -113,7 +113,7 @@ http://localhost:8080/graphql
 
 Request Parameter
 
-````json
+````graphql
 {
   bankAccount(id: "003") {
     id
